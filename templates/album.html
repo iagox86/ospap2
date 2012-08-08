@@ -1,0 +1,35 @@
+<table width='100%' class='albumentry'>
+	<tr>
+		<td class='albumentrytitle'>
+			<img src='images/expand.png' id='expandbutton%%%ID%%%' onClick='%%%EXPANDCLICK%%%' title='Toggle preview'> %%%NAME%%% %%%ISEMPTY%%%
+			<img src='images/contract.png' style='display: none'>
+		</td>
+		<td class='albumentryuser' align='right'>
+			%%%USERNAME%%%
+		</td>
+	</tr>
+	<tr id='expanddata%%%ID%%%' style='display: none;'>
+		<td colspan='2'>
+			<table width='500' class='albumentryexpand'>
+				<tr>
+					<td valign='top' width='150' class='albumentryinfo'>
+						By %%%USERNAME%%%<br>
+						Updated %%%LASTUPDATED%%%<br>
+						%%%PICTURECOUNT%%% Pictures<br>
+						%%%ALBUMCOUNT%%% Subalbums<br>
+					</td>
+					<td valign='top' width='350'>
+						%%%PREVIEW%%%
+					</td>
+				</tr>
+				<tr>
+					<td colspan='2' class='albumentrycaption'>
+						%%%CAPTION%%%
+					</td>
+				</tr>
+			</table>
+			<br>
+		</td>
+	</tr>
+</table>
+<br>

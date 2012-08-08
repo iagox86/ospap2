@@ -1,0 +1,70 @@
+<form action='index.php' method='get'>
+	%%%HIDDEN%%%
+
+	<table>
+		<tr>
+			<td width='100'>Name</td>
+			<td>%%%NAME%%%</td>
+		</tr>
+		<tr>
+			<td>Parent</td>
+			<td><strong>%%%PARENT%%%</strong></td>
+		</tr>
+		<tr>
+			<td>Group</td>
+			<td>%%%GROUP%%%</td>
+		</tr>
+		<tr>
+			<td colspan='2' class='descriptioncell'>The group to associate this album with. Members of the group may have different permissions (see below).</td>
+		</tr>
+		<tr>
+			<td valign='top'>Caption</td>
+			<td>%%%CAPTION%%%</td>
+		</tr>
+		<tr>
+			<td colspan='2' class='descriptioncell'>If set, this prevents pictures in this album from being displayed on the main page (under the "recent albums" section). This should be set for private albums, since even private albums will be seen on the main page.</td>
+		</tr>
+
+		<tr class='advanced'>
+			<td>Export key</td>
+			<td>%%%EXPORTKEY%%%</td>
+		</tr>
+		<tr class='advanced'>
+			<td colspan='2' class='descriptioncell'>This is a key that allows pictures in different albums to be accessed by external applications. If you don't know what to do with this, leave it blank.</td>
+		</tr>
+
+		<tr class='advanced'>
+			<td>Maximum size</td>
+			<td>%%%WIDTH%%% x %%%HEIGHT%%%</td>
+		</tr>
+		<tr class='advanced'>
+			<td colspan='2' class='descriptioncell'>The width, then the height, in pixels. The maximum values for these are %%%MAXWIDTH%%%x%%%MAXHEIGHT%%%.</td>
+		</tr>
+
+		<tr class='advanced'>
+			<td>Mime type</td>
+			<td>%%%MIME%%%</td>
+		</tr>
+		<tr class='advanced'>
+			<td colspan='2' class='descriptioncell'>The mimetype of the pictures. The possible choices are image/jpeg, image/png, and image/gif. Unless the image has large distinct colour areas (like a screenshot), then image/jpeg should always be used.</td>
+		</tr>
+
+	</table>
+<br>
+	<table width='100%' cellspacing='2' cellpadding='2'>
+		<tr class='advanced'>
+			<td width='33%'><strong>Group members can...</strong><br>%%%GROUPPERMISSIONS%%%</td>
+			<td width='33%'><strong>Registered users can...</strong><br>%%%MEMBERPERMISSIONS%%%</td>
+			<td width='33%'><strong>Guests can...</strong><br>%%%GUESTPERMISSIONS%%%</td>
+		</tr>
+		<tr class='simple' valign='top'>
+			<td>Permission?</td>
+			<td>%%%SIMPLEPERMISSIONS%%%</td>
+		</tr>
+		<tr>
+			<td colspan='3' align='right'>%%%SUBMIT%%%</td>
+		</tr>
+	</table>
+</form>
+
+<br><br>

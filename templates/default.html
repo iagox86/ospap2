@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>%%%TITLE%%% -- %%%PAGETITLE%%%</title>
+	%%%HEAD%%%
+
+	<link href="include/FancyTable.css"  rel="stylesheet" type="text/css">
+	<link href="include/ospap2.css"      rel="stylesheet" type="text/css">
+    <link rel="alternate" type="application/rss+xml" title="%%%TITLE%%% Feed" href="rss.php">
+
+	<script type="text/javascript" src="include/js/functions.js"></SCRIPT>
+
+	<script type='text/javascript'>
+	    %%%SCRIPT%%%
+
+		function onLoadHandler()
+		{
+			%%%ONLOAD%%%
+		}
+	</script>
+</head>
+
+<body onLoad='javascript:onLoadHandler()'>
+	<table>
+		<tr>
+			<td width='200'>
+			</td>
+			<td width='394'>
+			</td>
+			<td width='206'>
+			</td>
+		</tr>
+		<tr>
+			<td colspan='2' class='headerrow'>
+				<table width='100%'>
+					<tr>
+						<td class='welcome'>%%%WELCOME%%%</td>
+					</tr>
+					<tr>
+						<td>
+							%%%MENU%%%
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td colspan='1' class='headerrow'>
+				%%%LOGO%%%
+			</td>
+		</tr>
+		<tr>
+			<td colspan='1' valign='top' style='padding-right: 20px;'>
+				<table width='100%'>
+					<tr>
+						<td>%%%RECENTALBUMS%%%</td>
+					</tr>
+					<tr>
+						<td>%%%RECENTPICTURES%%%</td>
+					</tr>
+				</table>
+			</td>
+			<td colspan='2' class='content' valign='top'>
+				<table width='100%'>
+					<tr>
+						<td class='pagetitle'>
+							%%%PAGETITLE%%%
+						</td>
+					</tr>
+					<tr>
+						<td class='breadcrumbs'>%%%BREADCRUMBS%%%</td>
+					</tr>
+					<tr>
+						<td id='minimenu'>%%%MINIMENU%%%</td>
+					</tr>
+					<tr>
+						<td class='errormessagecell'>
+							<span class='message'>%%%MESSAGE%%%</span>
+							<span class='error'>%%%ERROR%%%</span>
+						</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+					</tr>
+					<tr>
+						<td>
+							%%%CONTENT%%%
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr><td colspan='3'>&nbsp;</td></tr>
+		<tr>
+			<td colspan='3' class='footerrow'>
+				%%%COPYRIGHT%%%
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
+

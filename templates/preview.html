@@ -1,0 +1,28 @@
+<form action='index.php' method='get'>
+	<input type='hidden' name='action'    value='upload'>
+	%%%HIDDEN%%%
+
+	<table class='preview'>
+		<tr>
+			<td>Image %%%ID%%%: %%%NAME%%%</td>
+			<td colspan='2' align='right'>Dimensions: %%%WIDTH%%%x%%%HEIGHT%%%</td>
+		<tr>
+			<td width='210' valign='top'>%%%IMAGE%%%</td>
+			<td colspan='2'>
+	
+				Album: <strong>%%%ALBUM%%%</strong><br>
+				Title: %%%TITLE%%%<br>
+				Caption:<br>
+				 %%%CAPTION%%%<br>
+				%%%SAVEDELETE%%%<br>
+			</td>
+		</tr>
+		<tr>
+			<td colspan='2' align='right'>
+				%%%SUBMIT%%%
+			</td>
+		</tr>
+	</table>
+</form>
+
+<br><br>

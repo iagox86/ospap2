@@ -1,0 +1,23 @@
+- Paginations
+- Disbanding a group
+- Put uploaded pictures in the proper order?
+- Give an option to export a full album
+- Mark newly uploaded pictures as viewed (by the person who uploaded them)
+- Make rating pictures work better
+- Make the ordering of the newest albums recursive (ie, if a sub album is updated, all of its parents should move to the top in their respective categories)
+- Finding a way to link with Picasa would be totally awesome
+- Remove multiple pictures at the same time
+- Templates for output
+- Think of a better way to do the interfaces
+
+- Re-do the albums page
+ - Sort albums differently
+ - View albums by group (from album page)
+ - Allow moving multiple albums at once
+ - Allow a nested view of albums
+ - Display the total number of children, not just the first level
+
+- Mark your own pictures as seen
+- Have an admin option to delete unlinked/deleted image files
+- Have an option to remove all pending
+- Export a full album in html/bbcode

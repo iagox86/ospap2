@@ -1,0 +1,63 @@
+.fancytable
+{
+	border-style: none;
+	border-collapse: collapse;
+	
+}
+
+.fancyheader
+{
+	background: #2266FF;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+a.fancyheader
+{
+	color: #CCCCCC;
+	text-decoration: none;
+}
+
+.fancyfooter
+{
+	background: #2266FF;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: right;
+	text-decoration: none;
+}
+
+a.fancyfooter
+{
+	color: #CCCCCC;
+	text-decoration: none;
+}
+
+.fancyoddrow
+{
+	background: #FFFFFF;
+	color: #000000;
+}
+
+.fancyevenrow
+{
+	background: #DDDDFF;
+	color: #000000;
+}
+
+.fancyhighlight
+{
+	background: #FFCCCC;
+	color: #000000;
+}
+
+.fancymouseover
+{
+	background: #FF9900;
+	color: #FFFFFF;
+}
+
+.fancynav
+{
+	border: 0;
+}

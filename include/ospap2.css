@@ -1,0 +1,341 @@
+img
+{
+	border: 0;
+}
+
+body
+{
+	background: #FFFFFF;
+	font-size: normal;
+	font-family: tahoma, verdana, sans-serif;
+}
+
+table
+{
+	border-spacing: 0;
+}
+
+td
+{
+	font-size: normal;
+	font-family: tahoma, verdana, sans-serif;
+}
+
+th
+{
+	border-bottom: 2px solid #0042AE;
+	font-weight: bold;
+}
+
+a
+{
+	color: #000040;
+	text-decoration: underline;
+}
+
+#menu
+{
+	list-style: none;
+	padding: 0px 0px 1px;
+	margin: 0;
+}
+
+#menu li
+{
+	display: inline;
+	padding: 0;
+	margin:0;
+}
+
+#menu li a
+{
+	padding: 0px 15px 2px 0px;
+	margin-right: -1px;
+	text-decoration: none;
+}
+
+
+#minimenu
+{
+	list-style: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0;
+}
+
+#minimenu li
+{
+	display: inline;
+	padding: 0px 15px 2px 0px;
+	margin: 0;
+	font: bold 0.7em Verdana, sans-serif;
+}
+
+#minimenu li a
+{
+}
+
+
+.welcome
+{
+	padding: 0px 0px 1px;
+	margin: 0;
+	font-weight: normal;
+}
+
+.headerrow
+{
+	border-bottom: 2px solid #0042AE;
+	border-top: 2px solid #0042AE;
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+.content
+{
+	font: normal 0.8em Verdana, sans-serif;
+}
+
+.footerrow
+{
+	border-bottom: 2px solid #0042AE;
+	border-top: 2px solid #0042AE;
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+.error
+{
+	font: bold 0.8em Verdana, sans-serif;
+	color: red;
+}
+
+.message
+{
+	font: bold 0.8em Verdana, sans-serif;
+	color: #008000;
+}
+
+.disabled
+{
+	font: bold 0.8em Verdana, sans-serif;
+	color: #808080;
+}
+
+.errormessagecell
+{
+}
+
+.pagetitle
+{
+	font: bold 1.5em Verdana, sans-serif;
+	color: #000040;
+	border-bottom: 1px solid #0042AE;
+}
+
+.newstitle
+{
+	border-bottom: 1px solid #0042AE;
+	font: bold 1em Verdana, sans-serif;
+}
+
+.newsinfocell
+{
+	border-bottom: 1px solid #0042AE;
+	font: 0.8em Verdana, sans-serif;
+}
+
+.newsusername
+{
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+.newsdate
+{
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+.newsitem
+{
+	border-top: 2px solid #0042AE;
+}
+
+.commenttitle
+{
+	border-bottom: 1px solid #0042AE;
+	font: bold 1em Verdana, sans-serif;
+}
+
+.commentinfocell
+{
+	border-bottom: 1px solid #0042AE;
+	font: 0.8em Verdana, sans-serif;
+}
+
+.commentusername
+{
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+.commentdate
+{
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+.comment
+{
+	border-top: 2px solid #0042AE;
+}
+
+
+.albumentry
+{
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+.albumentrylink
+{
+	text-decoration: none;
+}
+
+.albumentryuser
+{
+	font: bold 1.2em Verdana, sans-serif;
+	border-top: 2px solid #0042AE;
+}
+
+.albumentrytitle
+{
+	font: bold 1.2em Verdana, sans-serif;
+	border-top: 2px solid #0042AE;
+}
+
+.albumentryexpand
+{
+	margin-left: 12px;
+	border-top: 1px solid #0042AE;
+}
+
+.albumentryinfo
+{
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+.albumentrycaption
+{
+	margin-left: 12px;
+	font: bold 0.7em Verdana, sans-serif;
+}
+
+.albumcaption
+{
+	font: bold 0.7em Verdana, sans-serif;
+}
+
+.albumpicturecaption
+{
+	font: bold 0.7em Verdana, sans-serif;
+	border-top: 1px solid #0042AE;
+}
+
+.albumpicturelink
+{
+	text-decoration: none;
+}
+
+.breadcrumbs
+{
+	font: bold 0.8em Verdana, sans-serif;
+}
+
+.picturetitle
+{
+	font: bold 0.9em Verdana, sans-serif;
+	border-top: 1px solid #0042AE;
+}
+
+.picturecaption
+{
+	font: 0.8em Verdana, sans-serif;
+	border-bottom: 1px solid #0042AE;
+}
+
+.picturerow
+{
+	border-top: 1px solid #0042AE;
+	border-bottom: 1px solid #0042AE;
+}
+
+.editdelete
+{
+	font: bold 0.7em Verdana, sans-serif;
+}
+
+.descriptioncell
+{
+	font: 0.7em Verdana, sans-serif;
+	padding: 0px 0px 15px 0px;
+}
+
+.recentheader
+{
+	border-bottom: 1px solid #0042AE;
+	font: bold 0.8em Verdana, sans-serif;
+	padding: 0px 0px 6px 0px;
+	display: block;
+}
+
+.recentlink
+{
+	font: bold 0.7em Verdana, sans-serif;
+	text-decoration: none;
+}
+
+.recentdate
+{
+	font: 0.7em Verdana, sans-serif;
+}
+
+.smalltext
+{
+	font: bold 0.7em Verdana, sans-serif;
+}
+
+.smalllink
+{
+	font: bold 0.7em Verdana, sans-serif;
+	text-decoration: none;
+}
+
+.newcommenttable
+{
+	border-bottom: 1px solid #0042AE;
+}
+
+.rating
+{
+	font-weight: bold;
+	color: red;
+}
+
+.bottomborder
+{
+	border-bottom: 2px solid #0042AE;
+}
+
+.thinbottomborder
+{
+	border-bottom: 1px solid #0042AE;
+}
+
+.topborder
+{
+	border-top: 2px solid #0042AE;
+}
+
+.thintopborder
+{
+	border-top: 1px solid #0042AE;
+}
+
+.nounderline
+{
+	text-decoration: none;
+}
